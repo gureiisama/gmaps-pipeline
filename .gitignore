@@ -1,0 +1,62 @@
+# ---------------------------
+# Python bytecode / cache
+# ---------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---------------------------
+# Virtual environments
+# ---------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# ---------------------------
+# Environment variables
+# ---------------------------
+.env
+.env.*
+
+# ---------------------------
+# Build / packaging
+# ---------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---------------------------
+# Logs
+# ---------------------------
+*.log
+
+# ---------------------------
+# OS-specific files
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# IDE / Editor settings
+# ---------------------------
+.vscode/
+.idea/
+
+# ---------------------------
+# Data outputs 
+# ---------------------------
+*.json
+!examples/basic_usage_output_1777173472030819800.json
+!examples/from_excel_output_1777191711539429300.json
+*.xlsx
+!examples/sample_location_list.xlsx
+*.csv
+*.db
+
+# ---------------------------
+# Temporary files
+# ---------------------------
+*.tmp
+*.bak

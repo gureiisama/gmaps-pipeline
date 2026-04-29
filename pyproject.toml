@@ -1,0 +1,16 @@
+[project]
+name = "gmaps-pipeline"
+version = "0.1.0"
+description = "Google Maps data extraction and filtering pipeline"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31.0",
+    "pandas>=2.0.0",
+    "openpyxl>=3.1.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+gmaps-pipeline = "gmaps_pipeline.cli:main"
