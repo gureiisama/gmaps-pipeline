@@ -48,8 +48,8 @@ Thumbs.db
 # Data outputs 
 # ---------------------------
 *.json
-!examples/basic_usage_output_1777173472030819800.json
-!examples/from_excel_output_1777191711539429300.json
+!examples/basic_usage_output_*.json
+!examples/from_excel_output_*.json
 *.xlsx
 !examples/sample_location_list.xlsx
 *.csv
