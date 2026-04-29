@@ -2,7 +2,6 @@ import os
 import json
 import argparse
 from typing import Any
-from time import time_ns
 from gmaps_pipeline.core.main_pipeline import run_pipeline
 from gmaps_pipeline.io.writers import write_json
 from gmaps_pipeline.settings.config import DEFAULT_FILTERS, DEFAULT_LOCATIONS
@@ -121,7 +120,7 @@ def create_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "--output_path",
-        default=f"output_{time_ns()}.json",
+        default=None,
         help="Path where the output file will be saved.",
     )
 
@@ -150,9 +149,11 @@ def main() -> None:
     )
 
     if args.output_format == "json":
-        write_json(output_data, args.output_path)
-
-    print(f"Output saved to: {args.output_path}")
+        path = write_json(
+            data=output_data,
+            path=args.output_path
+        )
+        print(f"Output saved to: {path}")
 
 
 if __name__ == "__main__":
