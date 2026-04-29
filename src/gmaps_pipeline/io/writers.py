@@ -1,3 +1,9 @@
+import json
+from pathlib import Path
+from time import time_ns
+from typing import Any
+
+
 def write_json(data: Any, path: Path | str | None = None, file_name: str | None = None) -> Path:
     """
     Serialize an object to JSON and write it to disk using pathlib.
