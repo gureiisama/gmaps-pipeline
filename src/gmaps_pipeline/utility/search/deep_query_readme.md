@@ -28,7 +28,7 @@ This module is part of the project structure:
 
 ```
 gmaps_pipeline/
-└── utility/
+└── utility/search
     └── lookup.py
 ```
 
@@ -43,7 +43,7 @@ pip install -e .
 ## Quick Start
 
 ```python
-from gmaps_pipeline.utility.lookup import deep_query
+from gmaps_pipeline.utility.search.lookup import deep_query
 
 payload = {
     "team": {
