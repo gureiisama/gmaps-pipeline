@@ -55,7 +55,7 @@ utility/
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/gmaps-pipeline.git
+git clone https://github.com/gureiisama/gmaps-pipeline.git
 cd gmaps-pipeline
 
 pip install -r requirements.txt
