@@ -1,0 +1,191 @@
+{
+    "data": [
+        {
+            "name": "Chicago",
+            "coords": {
+                "lat": 41.8781,
+                "lng": -87.6298
+            },
+            "query": "dental clinic",
+            "reverse_location": {
+                "coords": {
+                    "lat": "41.877998",
+                    "lng": "-87.62984"
+                },
+                "display_name": "Union League Club, 65, West Jackson Boulevard, Loop, Central, Chicago, Cook County, Illinois, 60604, USA"
+            },
+            "result": [
+                {
+                    "id": "ChIJTZHMAqUsDogRT23QNnloow4",
+                    "display_name": "Downtown Dental - Loop",
+                    "formatted_address": "25 E Washington St STE 1921, Chicago, IL 60602, USA",
+                    "types": "dental_clinic,medical_clinic,dentist,doctor,health,point_of_interest,service,establishment",
+                    "point_of_interest": "",
+                    "rating": 4.7,
+                    "user_rating_count": 1367,
+                    "business_status": "OPERATIONAL",
+                    "national_phone_number": "none",
+                    "website_uri": "none",
+                    "google_maps_uri": "https://maps.google.com/?cid=1054801607554788687&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+                    "is_qualified": false
+                },
+                {
+                    "id": "ChIJXbqweJksDogRZHoRbhHTfjQ",
+                    "display_name": "South Loop Dental Specialists",
+                    "formatted_address": "850 S Wabash Ave #240, Chicago, IL 60605, USA",
+                    "types": "dental_clinic,medical_clinic,dentist,health,point_of_interest,establishment",
+                    "point_of_interest": "",
+                    "rating": 4.8,
+                    "user_rating_count": 803,
+                    "business_status": "OPERATIONAL",
+                    "national_phone_number": "none",
+                    "website_uri": "none",
+                    "google_maps_uri": "https://maps.google.com/?cid=3782692808852339300&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+                    "is_qualified": false
+                },
+                {
+                    "id": "ChIJUYGPFqAtDogRUV2kwcUZsBU",
+                    "display_name": "Dentist On The Park",
+                    "formatted_address": "8 S Michigan Ave #1306, Chicago, IL 60603, USA",
+                    "types": "dental_clinic,medical_clinic,health,point_of_interest,establishment",
+                    "point_of_interest": "",
+                    "rating": 5,
+                    "user_rating_count": 238,
+                    "business_status": "OPERATIONAL",
+                    "national_phone_number": "(872) 888-9010",
+                    "website_uri": "http://www.dentistonthepark.com/",
+                    "google_maps_uri": "https://maps.google.com/?cid=1562777407845588305&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+                    "is_qualified": true
+                },
+                {
+                    "id": "ChIJTZHMAqUsDogRVkCK0hIcit0",
+                    "display_name": "25 East Dental",
+                    "formatted_address": "25 E Washington St Suite 1115, Chicago, IL 60602, USA",
+                    "types": "dentist,doctor,health,point_of_interest,establishment",
+                    "point_of_interest": "",
+                    "rating": 4.9,
+                    "user_rating_count": 306,
+                    "business_status": "OPERATIONAL",
+                    "national_phone_number": "none",
+                    "website_uri": "none",
+                    "google_maps_uri": "https://maps.google.com/?cid=15963602696335409238&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+                    "is_qualified": false
+                },
+                {
+                    "id": "ChIJGU2UmKUsDogRIpPIOaCP_bA",
+                    "display_name": "In The Loop Dental",
+                    "formatted_address": "111 N Wabash Ave STE 1107, Chicago, IL 60602, USA",
+                    "types": "dental_clinic,medical_clinic,dentist,health,point_of_interest,establishment",
+                    "point_of_interest": "",
+                    "rating": 4.9,
+                    "user_rating_count": 247,
+                    "business_status": "OPERATIONAL",
+                    "national_phone_number": "none",
+                    "website_uri": "none",
+                    "google_maps_uri": "https://maps.google.com/?cid=12753507638110098210&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+                    "is_qualified": false
+                }
+            ]
+        },
+        {
+            "name": "Houston",
+            "coords": {
+                "lat": 29.7604,
+                "lng": -95.3698
+            },
+            "query": "dental clinic",
+            "reverse_location": {
+                "coords": {
+                    "lat": "29.7604241",
+                    "lng": "-95.3697874"
+                },
+                "display_name": "West Walker Tunnel, Downtown, Houston, Harris County, Texas, 77002, USA"
+            },
+            "result": [
+                {
+                    "id": "ChIJg3863qzAQIYRX1pLJuizqOo",
+                    "display_name": "Bayou City Smiles",
+                    "formatted_address": "2313 Edwards St #150, Houston, TX 77007, USA",
+                    "types": "dental_clinic,medical_clinic,dentist,doctor,health,point_of_interest,service,establishment",
+                    "point_of_interest": "",
+                    "rating": 4.8,
+                    "user_rating_count": 322,
+                    "business_status": "OPERATIONAL",
+                    "national_phone_number": "none",
+                    "website_uri": "none",
+                    "google_maps_uri": "https://maps.google.com/?cid=16908962610618784351&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+                    "is_qualified": false
+                },
+                {
+                    "id": "ChIJ-yHQKDq_QIYRaP3LLgskFhI",
+                    "display_name": "Downtown Houston Dental",
+                    "formatted_address": "910 Louisiana St Suite 190, Houston, TX 77002, USA",
+                    "types": "dentist,dental_clinic,medical_clinic,health,point_of_interest,service,establishment",
+                    "point_of_interest": "",
+                    "rating": 4.9,
+                    "user_rating_count": 447,
+                    "business_status": "OPERATIONAL",
+                    "national_phone_number": "none",
+                    "website_uri": "none",
+                    "google_maps_uri": "https://maps.google.com/?cid=1303268772618698088&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+                    "is_qualified": false
+                },
+                {
+                    "id": "ChIJP-RH3UO_QIYRg6k3vIHJ8fY",
+                    "display_name": "Omega Dental Specialists",
+                    "formatted_address": "106 W Gray St, Houston, TX 77019, USA",
+                    "types": "dentist,doctor,health,point_of_interest,establishment",
+                    "point_of_interest": "",
+                    "rating": 4.6,
+                    "user_rating_count": 1203,
+                    "business_status": "OPERATIONAL",
+                    "national_phone_number": "none",
+                    "website_uri": "none",
+                    "google_maps_uri": "https://maps.google.com/?cid=17794225161763268995&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+                    "is_qualified": false
+                },
+                {
+                    "id": "ChIJUXRZu2u_QIYRxS30T_-yH9c",
+                    "display_name": "FLOSS Dental of Houston Midtown",
+                    "formatted_address": "2707 Milam St Suite C, Houston, TX 77006, USA",
+                    "types": "dentist,doctor,health,point_of_interest,establishment",
+                    "point_of_interest": "",
+                    "rating": 4.8,
+                    "user_rating_count": 645,
+                    "business_status": "OPERATIONAL",
+                    "national_phone_number": "none",
+                    "website_uri": "none",
+                    "google_maps_uri": "https://maps.google.com/?cid=15501305252060343749&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+                    "is_qualified": false
+                },
+                {
+                    "id": "ChIJTwozll6_QIYR5ET0PmpQFec",
+                    "display_name": "West Gray Dental",
+                    "formatted_address": "715 W Gray St, Houston, TX 77019, USA",
+                    "types": "dentist,health,point_of_interest,establishment",
+                    "point_of_interest": "",
+                    "rating": 4.7,
+                    "user_rating_count": 93,
+                    "business_status": "OPERATIONAL",
+                    "national_phone_number": "(832) 649-2465",
+                    "website_uri": "http://westgraydental.com/",
+                    "google_maps_uri": "https://maps.google.com/?cid=16651303614525228260&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+                    "is_qualified": true
+                }
+            ]
+        }
+    ],
+    "filters": {
+        "min_user_reviews": 60,
+        "max_user_reviews": 240,
+        "min_rating": 4.0,
+        "is_operational": true
+    },
+    "radius": 3000,
+    "page_size": 5,
+    "meta": {
+        "dry_run": false,
+        "total_time": 3.65,
+        "creation_date": "2026-04-29"
+    }
+}
