@@ -26,7 +26,7 @@ The pipeline is designed to be **deterministic, observable, and extensible**, wi
 * Reverse geocoding validation (LocationIQ)
 * Rule-based filtering system
 * Deduplication using `place_id`
-* Selective enrichment (qualified records only)
+* Left join → all records kept, only qualified enriched
 * JSON output support
 * Structured logging (replaces `print`)
 * Execution timing and performance visibility
@@ -44,7 +44,9 @@ gmaps_pipeline/
 ├── qualification/        # Filtering rules
 ├── io/                   # Writers (JSON implemented)
 ├── settings/             # Configuration and default filters
-├── utility               # Http error handler, location validation
+utility/
+│ └── http/             # HTTP client with retry logic and API abstraction
+│ └── search/           # Location validation and traversal logic
 ├── cli.py                # Command-line interface
 ```
 
@@ -127,7 +129,7 @@ py -m gmaps_pipeline.cli \
   --max_user_count 400 \
   --rating 4.0 \
   --output_format json \
-  --output_path output.json
+  --output_path output.json \
   --dry_run False
 ```
 
@@ -209,7 +211,7 @@ Below is a simplified sample of the pipeline output.
   "meta": {
     "dry_run": false,
     "total_time": 3.57,
-    "creation_date": '2026-04-29'
+    "creation_date": "2026-04-29"
   }
 }
 ```
