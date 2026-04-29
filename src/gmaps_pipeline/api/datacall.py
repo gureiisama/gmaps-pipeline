@@ -27,13 +27,10 @@ def search_places(
         query: Search keyword or phrase.
         page_size: Maximum number of results to return.
         radius: Search radius in meters.
-        storeParams: If True, include request parameters and reverse-geocoded location.
 
     Returns:
-        dict: {
-            "raw": API response,
-            "params": (optional) input parameters and derived metadata
-        }
+        dict: 
+            Raw details of the Search_Text API
     """
 
     _validate(coords, query, page_size, radius)
