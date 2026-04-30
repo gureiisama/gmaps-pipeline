@@ -78,16 +78,15 @@ def build_base_schema(search_details: list[dict]) -> list[dict]:
 
         record = {
             "id": place_id,
-            "display_name": (detail.get("display_name") or {}).get("text", ""),
-            "formatted_address": detail.get("formatted_address", ""),
-            "types": ",".join(detail.get("types", [])),
-            "point_of_interest": ",".join(detail.get("point_of_interest", [])),
+            "name": (detail.get("display_name") or {}).get("text", ""),
+            "address": detail.get("formatted_address", ""),
+            "tags": ",".join(detail.get("types", [])),
             "rating": detail.get("rating", 0.0),
-            "user_rating_count": detail.get("user_rating_count", 0),
+            "rating_count": detail.get("user_rating_count", 0),
             "business_status": detail.get("business_status", "NON-OPERATIONAL"),
-            "national_phone_number": "none",
-            "website_uri": "none",
-            "google_maps_uri": detail.get("google_maps_uri", "none"),
+            "phone": "none",
+            "website": "none",
+            "google_maps": detail.get("google_maps_uri", "none"),
             "is_qualified": detail.get("is_qualified", False)
         }
 
@@ -133,13 +132,13 @@ def apply_enrichment(
 
         if enriched:
             record["rating"] = enriched.get("rating", record["rating"])
-            record["user_rating_count"] = enriched.get(
-                "user_rating_count", record["user_rating_count"]
+            record["rating_count"] = enriched.get(
+                "rating_count", record["rating_count"]
             )
-            record["national_phone_number"] = enriched.get(
-                "national_phone_number", "none"
+            record["phone"] = enriched.get(
+                "phone", "none"
             )
-            record["website_uri"] = enriched.get("website_uri", "none")
+            record["website"] = enriched.get("website", "none")
 
         output.append(record)
 

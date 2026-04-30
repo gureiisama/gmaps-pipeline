@@ -168,14 +168,15 @@ Below is a simplified sample of the pipeline output.
       "query": "electrician",
       "result": [
         {
-          "place_id": "ChIJZ5vif4J9j4ARn1Yqv1gvHZU",
-          "display_name": "BV Electric Inc.",
+          "id": "ChIJZ5vif4J9j4ARn1Yqv1gvHZU",
+          "name": "BV Electric Inc.",
           "address": "44 Gough St #210, San Francisco, CA 94103, USA",
+          "tags": "electrician,service,point_of_interest,establishment",
           "rating": 4.8,
-          "user_rating_count": 557,
-          "is_operational": true,
-          "website_uri": "none",
-          "national_phone_number": "none",
+          "rating_count": 557,
+          "business_status": "OPERATIONAL",
+          "website": "none",
+          "phone": "none",
           "is_qualified": false
         }
       ]
@@ -189,14 +190,15 @@ Below is a simplified sample of the pipeline output.
       "query": "electrician",
       "result": [
         {
-          "place_id": "ChIJ7aDzth3HwoARtSHjPVpFPf0",
-          "display_name": "Blue Moon Electrical",
+          "id": "ChIJ7aDzth3HwoARtSHjPVpFPf0",
+          "name": "Blue Moon Electrical",
           "address": "360 S Broadway #60, Los Angeles, CA 90013, USA",
+          "tags": "electrician,service,point_of_interest,establishment",
           "rating": 5,
-          "user_rating_count": 71,
-          "is_operational": true,
-          "website_uri": "none",
-          "national_phone_number": "(323) 747-7122",
+          "rating_count": 71,
+          "business_status": "OPERATIONAL",
+          "website": "none",
+          "phone": "+14086386856",
           "is_qualified": true
         }
       ]
